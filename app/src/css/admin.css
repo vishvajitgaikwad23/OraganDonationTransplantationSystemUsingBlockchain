@@ -1,0 +1,182 @@
+/* Custom CSS for styling */
+
+/* Body styling */
+
+body.admin-body {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 60px;
+    margin: 0;
+}
+
+/* Navbar styling */
+
+.navbar-brand {
+    font-size: 1.5rem; /* Decrease the font size of the title */
+    font-weight: bold; /* Make the title bold */
+    color: #ffffff; /* Set the text color for the title */
+    letter-spacing: 1px; /* Add a little letter-spacing for readability */
+    margin-right: auto; /* Move the title to the leftmost part */
+  }
+  
+  .navbar-brand:hover {
+    color: #ffffff; /* Change the text color on hover */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff !important; /* Set the text color for the links */
+    margin-right: 15px; /* Decrease the right margin between the links */
+    font-weight: bold; /* Make the links bold */
+    position: relative; /* Set position to relative for pseudo-element positioning */
+  }
+  
+  .navbar-nav .nav-link::before {
+    content: ''; /* Create a pseudo-element for the hover effect line */
+    position: absolute;
+    width: 0; /* Initially set the width of the line to 0 */
+    height: 3px; /* Set the height of the hover effect line */
+    bottom: 0; /* Position the line at the bottom */
+    background-color: #ffffff; /* Set the color of the hover effect line */
+    transition: width 0.3s ease; /* Add a smooth transition for the hover effect */
+  }
+  
+  .navbar-nav .nav-link:hover::before {
+    width: 100%; /* Expand the width of the line on hover */
+  }
+  
+  /* Optional: Add a box shadow to the navbar for a subtle elevation effect */
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+/* Main content styling */
+.main-container {
+    padding: 30px 0;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+}
+
+.custom {
+    width: 100%;
+    max-width: 200px;
+}
+
+.transplant-btn {
+    text-align: center;
+}
+
+
+/* admin.css */
+
+/* Add this at the end of your existing styles */
+
+/* Search components styling */
+.search {
+    background-color: #2980b9; /* Set a light background color */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(12, 1, 1, 0.1); /* Add a subtle box shadow */
+    margin-top: 30px; /* Add top margin for separation from the buttons */
+}
+
+.search h2 {
+    color: #ffffff; /* Set heading color */
+}
+
+.search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da; /* Set input border color */
+    border-radius: 5px;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 16px; /* Set font size for details */
+    color: #ffffff; /* Set details text color */
+}
+
+.search .btn-primary {
+    width: 100%;
+    max-width: 200px; /* Set max width for the button */
+    margin: 15px auto;
+    font-size: 18px; /* Set font size for the button */
+}
+
+/* Additional styles for Main content */
+.main-container {
+    padding: 30px 0;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.custom {
+    width: 100%;
+    max-width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.transplant-btn {
+    text-align: center;
+}
+
+.btn {
+    padding: 20px 30px; /* Adjust padding to increase button size */
+    font-size: 24px; /* Adjust font size */
+    transition: transform 0.3s ease-in-out;
+}
+.btn-primary:hover {
+    background-color: #21618c; /* Adjust the background color on hover for the primary button */
+    border-color: #21618c;
+    color: #ffffff; /* Change text color on hover */
+    transform: scale(1.05); /* Scale up the button on hover */
+}
+
+/* Additional hover effect styles for custom class (if needed) */
+.custom:hover {
+    background-color: #21618c; /* Adjust the background color on hover */
+    border-color: #21618c;
+    color: #ffffff; /* Change text color on hover */
+    transform: scale(1.05); /* Scale up the button on hover */
+}
+.container {
+    max-width: 100%; /* Allow the container to occupy the full width of the page */
+}
+
+.center-box {
+    text-align: center;
+}
+
+.left-content,
+.right-content,
+.transplant-btn,
+.container-1,
+.container-2 {
+    margin: 20px; /* Add margin for spacing between elements */
+}
+
+.custom,
+.custom-tm,
+.search {
+    width: 100%; /* Make buttons and search boxes occupy 100% width */
+    max-width: 400px; /* Set a maximum width for better readability */
+    margin: 10px auto; /* Center the elements horizontally with some margin */
+}
+
+
+

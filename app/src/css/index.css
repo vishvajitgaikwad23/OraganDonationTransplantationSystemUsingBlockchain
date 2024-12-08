@@ -1,0 +1,150 @@
+/* Custom CSS for styling */
+/* Body Background */
+body {
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black or dark gray for text color */
+    font-family: Arial, sans-serif; /* Choose a suitable font */
+}
+
+/* Header Background */
+.header {
+    background-color: #005f82; /* Deep Blue */
+    color: #FFFFFF; /* White or light color for text */
+}
+
+/* Footer Background */
+.footer {
+    background-color: #005f82; /* Deep Blue */
+    color: #FFFFFF; /* White or light color for text */
+}
+
+/* Main Content Background */
+.main-content {
+    background-color: #FFFFFF; /* White */
+}
+
+/* Accent Color for Buttons, Links, etc. */
+.accent-color {
+    color: #66c2ff; /* Light Blue */
+}
+
+/* Button Styles */
+.button {
+    background-color: #66c2ff; /* Light Blue */
+    color: #FFFFFF; /* White */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+.button:hover {
+    background-color: #005f82; /* Deep Blue */
+}
+
+/* Navbar styling */
+body {
+  padding-top: 60px; /* Reduce the padding to adjust the height of the navbar */
+  background-color: #FFFFFF; /* Set a light background color */
+}
+
+.navbar {
+  background-color: #2196F3; /* Update the background color for the navbar */
+  border-bottom: 1px solid #1565c0; /* Adjust the border color at the bottom for separation */
+  height: 50px; /* Set the height of the navbar */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Decrease the font size of the title */
+  font-weight: bold; /* Make the title bold */
+  color: #ffffff; /* Set the text color for the title */
+  letter-spacing: 1px; /* Add a little letter-spacing for readability */
+  margin-right: auto; /* Move the title to the leftmost part */
+}
+
+.navbar-brand:hover {
+  color: #ffffff; /* Change the text color on hover */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important; /* Set the text color for the links */
+  margin-right: 15px; /* Decrease the right margin between the links */
+  font-weight: bold; /* Make the links bold */
+  position: relative; /* Set position to relative for pseudo-element positioning */
+}
+
+.navbar-nav .nav-link::before {
+  content: ''; /* Create a pseudo-element for the hover effect line */
+  position: absolute;
+  width: 0; /* Initially set the width of the line to 0 */
+  height: 3px; /* Set the height of the hover effect line */
+  bottom: 0; /* Position the line at the bottom */
+  background-color: #ffffff; /* Set the color of the hover effect line */
+  transition: width 0.3s ease; /* Add a smooth transition for the hover effect */
+  left: 50%; /* Position the line at the center */
+  transform: translateX(-50%); /* Center the line horizontally */
+}
+
+.navbar-nav .nav-link:hover::before {
+  width: 100%; /* Expand the width of the line on hover */
+}
+
+/* Optional: Add a box shadow to the navbar for a subtle elevation effect */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tickets section styling */
+.card {
+  border: none;
+  transition: transform 0.3s ease-in-out; /* Add a subtle scale transition on hover */
+  height: auto; /* Auto height for flexible cards */
+  margin-bottom: 30px; /* Add bottom margin for spacing between cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for elevation */
+  background-color: #E3F2FD; /* Set card background color */
+  border-radius: 10px; /* Add border radius */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
+}
+
+.card-img-top {
+  height: 200px; /* Set the height of the card image */
+  object-fit: cover;
+  border-top-left-radius: 10px; /* Add border radius to the top-left corner */
+  border-top-right-radius: 10px; /* Add border radius to the top-right corner */
+}
+
+.card-body {
+  padding: 20px; /* Add padding to the card body */
+}
+
+.card-title {
+  font-size: 1.4rem; /* Increase the font size of the title */
+  font-weight: bold; /* Make the title bold */
+  color: #2c3e50; /* Set the text color for the title */
+}
+
+.card-text {
+  color: #6c757d; /* Set the text color for the content */
+  font-weight: bold; /* Make the text bold */
+  font-size: 15px; /* Adjust the size as needed */
+}
+
+
+
+.btn-primary {
+  background-color: #03A9F4; /* Update the background color for the primary button */
+  border-color: #03A9F4;
+  font-weight: bold; /* Make the text bold */
+}
+
+.btn-primary:hover {
+  background-color: #0288D1; /* Adjust the background color on hover for the primary button */
+  border-color: #0288D1;
+  color: #ffffff; /* Change text color on hover */
+}

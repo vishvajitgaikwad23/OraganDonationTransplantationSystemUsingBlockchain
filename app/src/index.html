@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organ Donation Platform</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css"> <!-- Link to your custom CSS file -->
+  <style>
+    .card {
+      height: 100%;
+    }
+    .lead{
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand mr-auto" href="index.html">Organ Donation Platform</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="awareness.html">Awareness</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Introduction Section -->
+  <section class="container mt-5"> <!-- Added margin-top -->
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <img src="images/intro.png" class="img-fluid rounded" alt="Introduction Image">
+      </div>
+      <div class="col-md-6 mb-4">
+        <p class="lead">Welcome to our Organ Donation Platform! We're dedicated to facilitating life-saving
+        connections between donors and recipients. Our platform provides a seamless experience for both donors 
+        and recipients to connect, ensuring that every donation leads to a life-changing transplant. 
+        With our user-friendly interface and robust support system, we aim to make the process of organ donation as smooth and efficient as possible. Join us in our mission to save lives and make a lasting impact on the world!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section class="container mt-5">
+    <div class="row">
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="images/Donor-Registration.jpg" class="card-img-top img-fluid" alt="Patient Registration Image" style="height: 200px; object-fit: contain;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Donor Registration</h5>
+            <p class="card-text">Register as an organ donor to save lives. Join now!.</p>
+            <a href="donor-registration.html" class="btn btn-primary btn-md mx-auto d-block">Register</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="images/patient.svg" class="card-img-top img-fluid" alt="Patient Registration Image" style="height: 200px; object-fit: contain;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Patient Registration</h5>
+            <p class="card-text">Register as a patient in need of organ transplantation.</p>
+            <a href="patient-registration.html" class="btn btn-primary btn-md mx-auto d-block">Register</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="images/pledges.png" class="card-img-top img-fluid" alt="Pledge Image" style="height: 200px; object-fit: contain;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Pledge to Donate</h5>
+            <p class="card-text">Pledge to Save Lives: Commit to Organ Donation.</p>
+            <a href="donor-pledge.html" class="btn btn-primary mx-auto d-block">Pledge</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="images/administrator.jpg" class="card-img-top img-fluid" alt="Administrator Image" style="height: 200px; object-fit: contain;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Administrator</h5>
+            <p class="card-text">Manage Organ Donation: Admin Access.</p>
+            <a href="administrator.html" class="btn btn-primary btn-md mx-auto d-block">Admin</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies (popper.js and jQuery) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
